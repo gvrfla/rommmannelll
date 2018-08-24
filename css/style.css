@@ -1,0 +1,71 @@
+/*Global*/
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    width: 1024px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+    color: #000;
+}
+
+ul li a:hover {
+    color: #FB8C00;
+    /*border-bottom: 3px solid #FB8C00;*/
+}
+
+/* Index */
+#slideshow{
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+/*Quem somos*/
+
+
+/*Serviços*/
+.box{
+    width: 240px;
+    float: right;
+    padding: 10px;
+}
+
+
+/*Contato*/
+
+#contato {
+    width: 600px;
+}
+input{
+    width: 600px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 300px;
+    background: rgb(146, 131, 184);
+    font-size: 20px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    color:#fff;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(115, 102, 160);
+}
+input,button {
+    padding: 5px;
+    margin-top: 5px;
+}
